@@ -1,0 +1,29 @@
+﻿<div id="itemList"></div>
+
+<script id="itemTemplate" type="text/x-jsrender">
+    <div class="group">
+        <div class="date">{{:date}}</div>
+        <div class="events">
+            <div id="event_{{:id}}" class="item" data-id="{{:id}}">
+                {{if image}}
+                    <a href="#" class="details-link">
+                        <img class="event-image" src="{{:image}}" alt="{{:name}}" />
+                    </a>
+                {{/if}}
+                <h2 class="title">
+                    <a href="#" class="details-link wh-light-text">{{:name}}</a>
+                </h2>
+                {{:description}}
+                {{if primaryAction}}
+                    <a href="{{:primaryAction.url}}" title="{{:primaryAction.url}}" target="_blank" class="primary-action wh-dark">
+                        {{if primaryAction.label}}
+                            {{:primaryAction.label}}
+                        {{else}}
+                            ...
+                        {{/if}}
+                    </a>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</script>
