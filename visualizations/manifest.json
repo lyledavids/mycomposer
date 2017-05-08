@@ -1,14 +1,14 @@
 {
-  "mycompany": {
-    "title": "[DISPLAY_NAME]",
-    "website": "[WEBSITE_URL]",
-    "logo": "[LOGO_URL]",
+  "lyledavids": {
+    "title": "Lyle Davids",
+    "website": "https://github.com/lyledavids",
+    "logo": "https://avatars0.githubusercontent.com/u/14069492?v=3",
     "visualizations": {
 
 
       "list": {
           "license": "MIT",
-          "website": "[INFO_URL]",
+          "website": "https://github.com/lyledavids",
           "versions": {
             "1.0.0": {
               "simple": {
